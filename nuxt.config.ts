@@ -11,8 +11,11 @@ export default defineNuxtConfig({
     build: {
         transpile: ['primevue']
     },
-    modules: ['@nuxtjs/tailwindcss'],
+    modules: [
+        '@nuxtjs/tailwindcss',
+        'nuxt-graphql-client',
+    ],
     tailwindcss: {
         cssPath: '~/assets/scss/tailwindcss.css',
-      }
+    }
 })
