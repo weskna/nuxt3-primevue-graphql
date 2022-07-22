@@ -7,7 +7,10 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.6"
+    "@nuxtjs/tailwindcss": "^5.3.0",
+    "nuxt": "3.0.0-rc.6",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2"
   },
   "dependencies": {
     "primeicons": "^5.0.0",

@@ -5,9 +5,14 @@ export default defineNuxtConfig({
     css: [
         'primevue/resources/themes/tailwind-light/theme.css',
         'primevue/resources/primevue.css',
-        'primeicons/primeicons.css'
+        'primeicons/primeicons.css',
+        '~/assets/scss/app.scss',
     ],
     build: {
         transpile: ['primevue']
-    }
+    },
+    modules: ['@nuxtjs/tailwindcss'],
+    tailwindcss: {
+        cssPath: '~/assets/scss/tailwindcss.css',
+      }
 })
