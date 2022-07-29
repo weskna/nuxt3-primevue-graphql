@@ -15,6 +15,9 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         'nuxt-graphql-client',
     ],
+    buildModules: [
+      '@pinia/nuxt',
+    ],
     tailwindcss: {
         cssPath: '~/assets/scss/tailwindcss.css',
     }

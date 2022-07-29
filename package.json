@@ -8,13 +8,15 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.0",
-    "nuxt": "3.0.0-rc.6",
+    "nuxt": "^3.0.0-rc.6",
     "sass": "^1.53.0",
     "sass-loader": "^13.0.2"
   },
   "dependencies": {
     "nuxt-graphql-client": "^0.1.6",
     "primeicons": "^5.0.0",
-    "primevue": "^3.15.0"
+    "primevue": "^3.15.0",
+    "@pinia/nuxt": "^0.3.0",
+    "pinia": "^2.0.16"
   }
 }
